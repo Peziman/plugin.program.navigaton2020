@@ -19,7 +19,6 @@ class Navigation2020(xbmcgui.WindowXMLDialog):
         pass
     
     def onClick(self, controlID):
-        
         if controlID == BACK_BUTTON:
             self.close()
            
